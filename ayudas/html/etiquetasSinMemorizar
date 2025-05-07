@@ -8,6 +8,13 @@
 <!-- <sup> Superíndice-->
 <!-- <del> Texto tachado-->
 <!-- <ins> Texto subrayado-->
+<!--LISTAS:-->
+        <!-- <ol> Lista numerada-->
+        <!-- <ul> Lista sin numerar-->
+        <!-- <il> El elemento de la lista-->
+        <!-- <dl> Lista de definiciones-->
+        <!-- <dt> Define el nombre del elemento-->
+        <!-- <dd> Define la descripción del elemento-->
 
                                 <!-- <CARÁCTERES ESPECIALES QUE EMPIEZAN CON & Y ACABAN CON ;> -->
 <!-- Ejemplos:
