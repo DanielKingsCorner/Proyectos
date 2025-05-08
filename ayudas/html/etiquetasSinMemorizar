@@ -29,3 +29,13 @@
         &nbsp "Espacio en blanco"
         &copy "Simbolo de copyright"
 > -->
+
+                                <!--ELEMENTOS SEMANTICOS-->
+<!--<header> Define la cabecera de una página o seccion-->
+<!--<nav> Representa una seccion de navegación-->
+<!--<main> Es el contenido principal del contenido-->
+<!--<section> Agrupa contenido relacionado temáticamente-->
+<!--<article> Contenido independiente y autocontenido "EJEMPLOS = Comentarios, widgets"-->
+<!--<aside> Contenido extra-->
+<!--<footer> Pie de página o seccion final-->
+<!--<adress> Para información de contacto-->
