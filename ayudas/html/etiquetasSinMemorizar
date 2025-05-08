@@ -9,8 +9,12 @@
 <!-- <del> Texto tachado-->
 <!-- <ins> Texto subrayado-->
 <!--ENLACES-->
-<!--<a href="url de destino"> Enlace-->
-<!-- <etiqueta id="nombre unico de esta etiqueta"> -->
+<!-- <a href="url de destino"></a> Enlace-->
+<!-- <id="nombre de la etiqueta"> Sirve para dar un nombre único a la etiqueta-->
+<!-- <a href="URL" target="blank"></a> Hace que la página que se abre, sea en otra nueva pestaña-->
+<!-- <a href="URL" title="Información adicional"></a> Muestra esta información al pasar el cursor-->
+<!-- <a href="URL" download>Descargar aquí</a> Sugiere descargar el recurso en lugar de navegarlo-->
+
 <!--LISTAS:-->
         <!-- <ol> Lista numerada-->
         <!-- <ul> Lista sin numerar-->
