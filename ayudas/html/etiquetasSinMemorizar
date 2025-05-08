@@ -8,6 +8,7 @@
 <!-- <sup> Superíndice-->
 <!-- <del> Texto tachado-->
 <!-- <ins> Texto subrayado-->
+<!-- <span> Selecciona texto para editarlo pero que siga en la misma linea-->
 <!--ENLACES-->
 <!-- <a href="url de destino"></a> Enlace-->
 <!-- <id="nombre de la etiqueta"> Sirve para dar un nombre único a la etiqueta-->
