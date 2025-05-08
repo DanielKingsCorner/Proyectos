@@ -8,6 +8,9 @@
 <!-- <sup> Superíndice-->
 <!-- <del> Texto tachado-->
 <!-- <ins> Texto subrayado-->
+<!--ENLACES-->
+<!--<a href="url de destino"> Enlace-->
+<!-- <etiqueta id="nombre unico de esta etiqueta"> -->
 <!--LISTAS:-->
         <!-- <ol> Lista numerada-->
         <!-- <ul> Lista sin numerar-->
