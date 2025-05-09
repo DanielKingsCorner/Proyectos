@@ -1,20 +1,20 @@
-                                <!-- <ETIQUETAS Y SIGNIFICADOS> -->
-<!-- <hr> Dibuja una linea horizontal-->
-<!-- <em> Texto en cursiva-->
-<!-- <strong> Texto en negrita-->
-<!-- <mark> Texto resaltado -->
-<!-- <small> Texto en pequeño -->
-<!-- <sub> Subíndice-->
-<!-- <sup> Superíndice-->
-<!-- <del> Texto tachado-->
-<!-- <ins> Texto subrayado-->
-<!-- <span> Selecciona texto para editarlo pero que siga en la misma linea-->
+ <!-- <ETIQUETAS Y SIGNIFICADOS> -->
+        <!-- <hr> Dibuja una linea horizontal-->
+        <!-- <em> Texto en cursiva-->
+        <!-- <strong> Texto en negrita-->
+        <!-- <mark> Texto resaltado -->
+        <!-- <small> Texto en pequeño -->
+        <!-- <sub> Subíndice-->
+        <!-- <sup> Superíndice-->
+        <!-- <del> Texto tachado-->
+        <!-- <ins> Texto subrayado-->
+        <!-- <span> Selecciona texto para editarlo pero que siga en la misma linea-->
 <!--ENLACES-->
-<!-- <a href="url de destino"></a> Enlace-->
-<!-- <id="nombre de la etiqueta"> Sirve para dar un nombre único a la etiqueta-->
-<!-- <a href="URL" target="blank"></a> Hace que la página que se abre, sea en otra nueva pestaña-->
-<!-- <a href="URL" title="Información adicional"></a> Muestra esta información al pasar el cursor-->
-<!-- <a href="URL" download>Descargar aquí</a> Sugiere descargar el recurso en lugar de navegarlo-->
+        <!-- <a href="url de destino"></a> Enlace-->
+        <!-- <id="nombre de la etiqueta"> Sirve para dar un nombre único a la etiqueta-->
+        <!-- <a href="URL" target="blank"></a> Hace que la página que se abre, sea en otra nueva pestaña-->
+        <!-- <a href="URL" title="Información adicional"></a> Muestra esta información al pasar el cursor-->
+        <!-- <a href="URL" download>Descargar aquí</a> Sugiere descargar el recurso en lugar de navegarlo-->
 
 <!--LISTAS:-->
         <!-- <ol> Lista numerada-->
@@ -24,18 +24,23 @@
         <!-- <dt> Define el nombre del elemento-->
         <!-- <dd> Define la descripción del elemento-->
 
-                                <!-- <CARÁCTERES ESPECIALES QUE EMPIEZAN CON & Y ACABAN CON ;> -->
-<!-- Ejemplos:
-        &nbsp "Espacio en blanco"
-        &copy "Simbolo de copyright"
-> -->
+<!-- <CARÁCTERES ESPECIALES QUE EMPIEZAN CON & Y ACABAN CON ;> -->
+        <!--&nbsp "Espacio en blanco"-->
+        <!--&copy "Simbolo de copyright"-->
 
-                                <!--ELEMENTOS SEMANTICOS-->
-<!--<header> Define la cabecera de una página o seccion-->
-<!--<nav> Representa una seccion de navegación-->
-<!--<main> Es el contenido principal del contenido-->
-<!--<section> Agrupa contenido relacionado temáticamente-->
-<!--<article> Contenido independiente y autocontenido "EJEMPLOS = Comentarios, widgets"-->
-<!--<aside> Contenido extra-->
-<!--<footer> Pie de página o seccion final-->
-<!--<adress> Para información de contacto-->
+<!--ELEMENTOS SEMANTICOS-->
+        <!--<header> Define la cabecera de una página o seccion-->
+        <!--<nav> Representa una seccion de navegación-->
+        <!--<main> Es el contenido principal del contenido-->
+        <!--<section> Agrupa contenido relacionado temáticamente-->
+        <!--<article> Contenido independiente y autocontenido "EJEMPLOS = Comentarios, widgets"-->
+        <!--<aside> Contenido extra-->
+        <!--<footer> Pie de página o seccion final-->
+        <!--<adress> Para información de contacto-->
+
+<!--FORMULARIOS-->
+        <!--<tr> Define una fola en la tabla-->
+        <!--<td> Define una celda en la tabla-->
+        <!--<th> Define una celda de encabezado-->
+        <!--<colspan> Extiende una celda a varias columnas-->
+        <!--<rowspan> Extiende una comlumna a varias celdas-->
