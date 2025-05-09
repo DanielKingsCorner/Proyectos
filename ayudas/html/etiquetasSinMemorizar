@@ -47,4 +47,18 @@
 
 <!--FORMULARIOS-->
         <!--<form> Es el contenedor principal-->
-        <!--ATRIBUTOS: -->
+                <!--ATRIBUTOS DESPUÉS DE FORM: action: URL donde se envían los datos
+                                                method: Metodo HTTP de envío(GET, POST)
+                                                name: Nombre del formulario
+                                                enctype: Tipo de codificación para archivos
+                                                target: Donde mostrar el formulario
+                                                autocomplete: Permite el autocompletado-->
+                <!--DIFERENCIAS ENTRE GET & POST: El GET sirve para busquedas, filtros e información no sensible
+                                        El POST sirve para login, registro, datos sensibles y cargas de archivos-->
+        <!--<input> Sirve para meter atributos
+                ATRIBUTOS MÁS USADOS: type: Define el tipo de input
+                                        name: Nombre para identificar el dato enviado
+                                        id: Identificación con CSS
+                                        value: Valor predeterminado del campo-->
+        <!--Vincula un texto descriptivo con un id del formulario-->
+        <!--Tipos de inputs de texto: -->
