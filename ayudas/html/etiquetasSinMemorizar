@@ -24,7 +24,7 @@
         <!-- <dt> Define el nombre del elemento-->
         <!-- <dd> Define la descripción del elemento-->
 
-<!-- <CARÁCTERES ESPECIALES QUE EMPIEZAN CON & Y ACABAN CON ;> -->
+<!--CARÁCTERES ESPECIALES QUE EMPIEZAN CON & Y ACABAN CON ;-->
         <!--&nbsp "Espacio en blanco"-->
         <!--&copy "Simbolo de copyright"-->
 
@@ -38,9 +38,13 @@
         <!--<footer> Pie de página o seccion final-->
         <!--<adress> Para información de contacto-->
 
-<!--FORMULARIOS-->
+<!--TABLAS-->
         <!--<tr> Define una fola en la tabla-->
         <!--<td> Define una celda en la tabla-->
         <!--<th> Define una celda de encabezado-->
         <!--<colspan> Extiende una celda a varias columnas-->
         <!--<rowspan> Extiende una comlumna a varias celdas-->
+
+<!--FORMULARIOS-->
+        <!--<form> Es el contenedor principal-->
+        <!--ATRIBUTOS: -->
