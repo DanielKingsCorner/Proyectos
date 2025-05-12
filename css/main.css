@@ -1,10 +1,25 @@
-/*p {color: purple;
-font-size: 15px;
-}*/
+:root {--color-fuente:#333;
+    --color-inverso: #fffffff6;
+    --color-concreto: rgba(255, 166, 0, 0.863);
+    --fuente-arial: Arial, Helvetica, sans-serif;
+}
+
+body {color: var(--color-fuente);
+
+}
+
+p {font-size: 16px;
+
+}
 
 h1, h2, h3 {font-style: italic;
 
 }
+
+.anaranjado {color: var(--color-concreto);
+
+}
+
 .destacado {color: aqua;
     font-weight: bold;
 }
@@ -13,22 +28,35 @@ p.destacado {color: brown;
 
 }
 
-nav a {font-family: Arial, Helvetica, sans-serif;
-    color: black;
+/*nav a {font-family: Arial, Helvetica, sans-serif;
+    color: var(--color-fuente);
+}*/
+
+nav.main a{color:var(--color-fuente)
+    var(--fuente-arial)
+}
+
+nav.footer a{color: var(--color-inverso)
+    var(--fuente-arial)
 }
 
 .grande {font-size: larger;
 
 }
 
-div > img {width: 33%;
+div > img {width: 32dvw;
 
 }
 
-#otrosIntereses {color: rgba(36, 33, 33, 0.76);
+#otrosIntereses {color: var(--color-fuente);
 
 }
 
-table.bordes {
-    border-style: dotted;
+table.bordes {border-style: solid;
+    border-width: 5px;
 }
+
+footer {background-color:var(--color-fuente);
+    color:var(--color-inverso);
+}
+
