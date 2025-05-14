@@ -1,3 +1,12 @@
+/**{margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+  html {box-sizing: border-box;}
+} */
+
+
 :root {--color-fuente:#333;
     --color-inverso: #fffffff6;
     --color-concreto: rgba(255, 166, 0, 0.863);
@@ -7,16 +16,20 @@
 body {color: var(--color-fuente);
     /*border-style: solid;
     border-color:var(--color-fuente);*/
-    padding: 1%;
-    background-color: rgba(189, 188, 188, 0.377);
+    /*padding: 1%;*/
+    /*background-color: rgba(189, 188, 188, 0.377);*/
+    background-image:"../assets/img/cssImages/fondo_pagina.jpg";
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 header {background-color:var(--color-fuente);
     color:var(--color-concreto);
     text-align: center;
     border-style: solid;
-    border-color:var(--color-fuente);
-    
+    border-color: var(--color-fuente);
+
 }
 
 p {font-size: 16px;
@@ -31,8 +44,6 @@ h1, h2, h3 {font-style: italic;
 .izquierda {text-align: left;
 
 }
-
-
 
 .anaranjado {color: var(--color-concreto)
 
@@ -51,18 +62,30 @@ p.destacado {color: #a52a2a;
 }*/
 
 nav.main a {color: var(--color-fuente)
-    var(--fuente-arial)
+    var(--fuente-arial);
+    text-decoration: transparent;
+    transition: all ease-in-out 0.3;
+    /*padding-top: 5dvh;
+    padding-bottom: 5dvh;*/
+        &:hover {background-color: var(--color-concreto);/*SIN ACABAR*/
+            
+        }
 }
 
 nav.footer a {color: var(--color-inverso)
-    var(--fuente-arial)
+    var(--fuente-arial);
+    /*padding-top: 5dvh;
+    padding-bottom: 5dvh;*/
 }
 
 .grande {font-size: larger;
 
 }
 
-div > img {width: 32dvw;
+div {/*padding-top: 5dvh;
+    padding-bottom: 5dvh;*/
+        img {width: 30dvw;
+        } 
 
 }
 
