@@ -13,12 +13,12 @@
     --fuente-arial: Arial, Helvetica, sans-serif;
 }
 
-body {color: var(--color-fuente);
+body {color: var(--color-concreto);
     /*border-style: solid;
     border-color:var(--color-fuente);*/
     /*padding: 1%;*/
     /*background-color: rgba(189, 188, 188, 0.377);*/
-    background-image:"../assets/img/cssImages/fondo_pagina.jpg";
+    background-image: url("../assets/img/cssImages/fondo_pagina.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -67,7 +67,7 @@ nav.main a {color: var(--color-fuente)
     transition: all ease-in-out 0.3;
     /*padding-top: 5dvh;
     padding-bottom: 5dvh;*/
-        &:hover {background-color: var(--color-concreto);/*SIN ACABAR*/
+        &:hover {background-color: var(--color-inverso);/*SIN ACABAR*/
             
         }
 }
