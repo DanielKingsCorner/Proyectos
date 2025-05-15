@@ -11,6 +11,7 @@
     --color-inverso: #fffffff6;
     --color-concreto: rgba(255, 166, 0, 0.863);
     --fuente-arial: Arial, Helvetica, sans-serif;
+    --morado: rgb(192, 7, 192);
 }
 
 body {color: var(--color-concreto);
@@ -29,7 +30,8 @@ header {background-color:var(--color-fuente);
     text-align: center;
     border-style: solid;
     border-color: var(--color-fuente);
-
+    text-shadow: 0 0 5px var(--morado);
+    
 }
 
 p {font-size: 16px;
@@ -64,11 +66,12 @@ p.destacado {color: #a52a2a;
 nav.main a {color: var(--color-fuente)
     var(--fuente-arial);
     text-decoration: transparent;
-    transition: all ease-in-out 0.3;
+    transition: all .3s ease-in-out;
     /*padding-top: 5dvh;
     padding-bottom: 5dvh;*/
-        &:hover {background-color: var(--color-inverso);/*SIN ACABAR*/
-            
+        &:hover {background-color: var(--morado);/*SIN ACABAR*/
+            transform: scale(1.1);
+            transition-delay: 1;
         }
 }
 
