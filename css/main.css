@@ -94,8 +94,7 @@ nav.main a {color: var(--color-concreto)
 
 nav.footer a {color: var(--color-inverso)
     var(--fuente-arial);
-    &:hover {
-        padding-left: 2.5dvw;
+    &:hover {padding-left: 2.5dvw;
     }
     /*padding-left: 5dvw;
     padding-top: 5dvh;
