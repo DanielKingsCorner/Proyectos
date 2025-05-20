@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,17 +8,37 @@
 <body>
     
     <script>
-        const notasDaniel = 8
+        const edad = Number(prompt("Edad: "))
+            if (edad < 13) {
+                console.log("Accespo denegado");
+                alert("Acceso denegado");
+            }else if (edad <= 17) {
+                console.log("Acceso a contenido para adolescentes");
+                alert("Acceso a contenido para adolescentes");
+            }else if (edad <= 65) {
+                console.log("Acceso completo");
+                alert("Acceso completo");
+            }else if (edad > 65) {
+                console.log("Descuento senior");
+                alert("Descuento senior");
+            }
+
+
+
+        /*const notasDaniel = 8
 
         if (notasDaniel >= 9) {
-            console.log("Has aprobado con sobresaliente")
+            console.log(`Has aprobado con sobresaliente`)
 
-        }else if (notasDaniel >=5)
-            console.log("Has aprobado normalito")
+        }else if (notasDaniel >=7) {
+            console.log(`Has aprobado con un notable`)
+
+        }else if (notasDaniel >=5) {
+            console.log(`Has aprobado normalito`)
             
-        else {
-            console.log("No has aprobado")
-        }
+        }else {
+            console.log(`No has aprobado`)
+        }*/
     </script>
 
 </body>
