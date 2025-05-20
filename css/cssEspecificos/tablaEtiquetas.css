@@ -1,11 +1,11 @@
-:root {--color-fuente:#333;
+:root {--color-fuente:#333;     /*Variables*/
     --color-inverso: #fffffff6;
     --color-concreto: rgba(255, 166, 0, 0.863);
     --fuente-arial: Arial, Helvetica, sans-serif;
     --morado: rgb(192, 7, 192);
 }
 
-html {
+html {  /*Tipo de caja*/
     box-sizing: border-box;
 }
 
@@ -16,7 +16,7 @@ html {
     overflow: auto;
 }
 
-body {
+body {  /*Alineación del cuerpo*/
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -25,11 +25,11 @@ body {
     gap: 5.5em;
 }
 
-header {width: 100%;
+header {width: 100%;    /*Cabecera*/
 
 }
 
-caption {
+caption {   /*Personalización título*/
     padding-left: 0px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -37,11 +37,11 @@ caption {
     font-weight: bold;
 }
 
-p {line-height: 24px;
+p {line-height: 24px;   /*Tamaño del texto*/
 
 }
 
-main {width: 75dvw;
+main {width: 75dvw; /*Contenido de la página*/
 
 }
 
@@ -53,11 +53,11 @@ table.bordes {width: 100%;
     border-radius: 10px;
 }
 
-nav a:hover {width: 200px;
+nav a:hover {width: 200px;  /*Personalización del hover de enlaces*/
     padding-left: 5dvw;
 }
 
-footer {width: 100%;
+footer {width: 100%;    /*Pie de página*/
     h2 {line-height: 1.5;
 
     }
