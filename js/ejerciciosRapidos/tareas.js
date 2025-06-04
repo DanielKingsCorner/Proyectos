@@ -48,6 +48,29 @@ function crearTarea() {
     }
 }
 
+//Añade tareas como objetos y controla los parámetros
+function añadirTarea(nombre, prioridad = 1 , estado = "pendiente") {
+    if (!nombre < 3 || nombre.length > 63) {
+        console.warn("El nombre de la tarea tiene que tener entre 3 y 63 carácteres")
+    return
+    }
+
+    if (!1) {
+        console.warn("El estado dese ser: pendiente, progreso, completa")
+    return
+    }
+
+    if (!["pendiente", "progreso", "completa"].includes(prioridad)) {
+        console.warn("El estado dese ser: pendiente, progreso, completa")
+    return
+    }
+
+    const tareas = cargarTareas()
+    tareas.push((nombre, prioridad, estado))
+
+    guardarTareas(tareas)
+}
+
 // Mostrar todas las tareas
 function mostrarTareas() {
     alert(`
@@ -78,5 +101,28 @@ function contarTareasPendientes() {
     alert("El número de tareas pendientes es " + tareasPendientes.length)
 }
 
+export function guardarUsuarios(lista) {
+    localStorage.setItem("usuarios", JSON.stringify(lista))
+}
+
+export function cargarUsuarios() {
+    let usuarios = localStorage.getItem("usuarios")
+    
+    if (!usuarios) {
+        usuarios = [
+                {
+                    "nombre": "ID de usuario",
+                    "prioridad": 1,
+                    "estado": "pendiente"
+                },
+                {
+                    "nombre": "Nombre de usuario",
+                    "prioridad": 2,
+                    "estado": "pendiente"
+                }
+            ]
+        }
+        guardarUsuarios(usuarios)
+    }
 
 main()
