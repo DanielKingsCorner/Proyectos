@@ -17,7 +17,7 @@ document.getElementById("cargarPersonajes").addEventListener("click", async () =
 
             div.innerHTML = `
                 <h3>${personaje.name}</h3>
-                <img src="${personaje.image}" alt="${personaje.name}" width="100">
+                <img src="${personaje.image}" alt="${personaje.name}" width = "100">
                 <p>Status: ${personaje.status}</p>
                 <p>Gender: ${personaje.gender}</p>
                 <p>Species: ${personaje.species}</p>

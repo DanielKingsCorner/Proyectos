@@ -1,16 +1,21 @@
-function calcularDatos(dato1, dato2, callback) {
-    console.log("Elige que operación hacer(suma, resta, multiplicación o división)");     
-    callback(dato1.toUpperCase(), callback(dato2.toUpperCase()))
+function calcular(numX, numY, operacion) {
+    return operacion(numX, numY)
 }
 
-function recibirDatos(dato1, dato2) {
-    switch (opcion) {
-        case opcion1:
-            if (opcion1 == "suma")
-                resultado = dato1 + dato2
-                prompt(resultado)
+function mostrarResultado() {
+    const x = 5
+    const y = 7
+    const operacion = "suma"
 
-        case opcion2:
-            if (opcion2 == "resta")
+    switch(operacion) {
+        case "suma":
+            calcular(x, y, (a, b) => a + b)
+            break
+        case "resta":
+            calcular(x, y, (a, b) => a - b)
+            break
+        case "multiplicación":
+            calcular(x, y, (a, b) => a * b)
+            break
     }
 }
